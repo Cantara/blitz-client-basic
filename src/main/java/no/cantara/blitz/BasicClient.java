@@ -108,7 +108,7 @@ public class BasicClient {
 
             log.trace("Found Space {}", space.toString());
         } else {
-            log.debug("No Java Space found.");
+            log.warn("No Java Space found.");
         }
         return space;
     }
